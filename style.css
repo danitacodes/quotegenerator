@@ -1,0 +1,60 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:wght@300&display=swap');
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #F28482;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inner {
+    background-color: #F6BD60;
+    border-radius: 20px;
+    padding: 2rem 1rem;
+}
+
+.inner h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    color: #F7EDE2;
+}
+
+.inner blockquote {
+    color: #84A59D;
+    padding: 1.5rem 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.inner p {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: large;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#create {
+    font-size: 1rem;
+    border: none;
+    background-color: #F5CAC3;
+    padding: 0.5rem 1rem;
+    color: #84A59D;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
